@@ -1,0 +1,57 @@
+09:55:04.191 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+09:55:04.250 INFO [GridLauncherV3.lambda$buildLaunchers$3] - Launching a standalone Selenium Server on port 4444
+2019-01-04 09:55:04.284:INFO::main: Logging initialized @273ms to org.seleniumhq.jetty9.util.log.StdErrLog
+09:55:04.433 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+09:55:04.492 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 4444
+09:55:05.054 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "acceptSslCerts": true,
+  "browserName": "firefox",
+  "name": "Institucional Simple"
+}
+09:55:05.054 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "acceptSslCerts": true,
+  "browserName": "firefox",
+  "name": "Botao Pesquisar"
+}
+09:55:05.055 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.firefox.GeckoDriverService)
+09:55:05.055 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.firefox.GeckoDriverService)
+1546602905238	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.NZcEknvsyhPq"
+1546602905238	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.kVRaXC3yZ96j"
+
+(firefox:4852): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:4852): Gtk-WARNING **: Theme parsing error: <data>:1:78: Expected ')' in color definition
+
+(firefox:4851): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:4851): Gtk-WARNING **: Theme parsing error: <data>:1:78: Expected ')' in color definition
+1546602908657	Marionette	INFO	Listening on port 45565
+1546602908710	Marionette	INFO	Listening on port 35847
+09:55:08.798 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+09:55:08.798 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+09:55:08.836 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session de7f3d1b-6161-4821-b41e-379b888c7ecb (org.openqa.selenium.firefox.GeckoDriverService)
+09:55:08.836 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session dc5c7b42-b2d1-45c4-8824-75769fc7ea76 (org.openqa.selenium.firefox.GeckoDriverService)
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+1546602949028	Marionette	INFO	Stopped listening on port 35847
+[Parent 4851, Gecko_IOThread] WARNING: pipe error (83): Conexão fechada pela outra ponta: file /build/firefox-v2X3gM/firefox-63.0+linuxmint2+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 4851, Gecko_IOThread] WARNING: pipe error (77): Conexão fechada pela outra ponta: file /build/firefox-v2X3gM/firefox-63.0+linuxmint2+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1546602949945	Marionette	INFO	Stopped listening on port 45565
+[Parent 4852, Gecko_IOThread] WARNING: pipe error (77): Conexão fechada pela outra ponta: file /build/firefox-v2X3gM/firefox-63.0+linuxmint2+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 4852, Gecko_IOThread] WARNING: pipe error (85): Conexão fechada pela outra ponta: file /build/firefox-v2X3gM/firefox-63.0+linuxmint2+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+09:55:50.354 INFO [ActiveSessions$1.onStop] - Removing session de7f3d1b-6161-4821-b41e-379b888c7ecb (org.openqa.selenium.firefox.GeckoDriverService)
+09:55:50.630 INFO [ActiveSessions$1.onStop] - Removing session dc5c7b42-b2d1-45c4-8824-75769fc7ea76 (org.openqa.selenium.firefox.GeckoDriverService)
