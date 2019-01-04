@@ -4,7 +4,7 @@
   "description": "",
   "main": "nightwatch.conf.BASIC.js",
   "scripts": {
-    "test": "node_modules/.bin/nightwatch --config nightwatch.conf.js",
+    "test": "node_modules/.bin/nightwatch --config nightwatch.conf.js --env local",
     "test:desenv": "node_modules/.bin/nightwatch --config nightwatch.conf.js --env desenv",
     "test:test": "node_modules/.bin/nightwatch --config nightwatch.conf.js --env test",
     "test:pre": "node_modules/.bin/nightwatch --config nightwatch.conf.js --env pre",
