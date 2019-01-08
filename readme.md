@@ -11,5 +11,7 @@ Duplicar o arquivo `exemplo.env`, e alterar o nome do arquivo para  `.env` e pre
 
 #### Comandos
 Comandos para rodar o projeto:
-`npm run test // Rodar contra a maquina local (localhost:8080)`
-`npm run test:desenv|test|pre|prd-1 // Rodar contra urls do ENV`
+```
+npm run test // Rodar contra a maquina local (localhost:8080)
+npm run test:desenv|test|pre|prd-1 // Rodar contra urls do ENV
+```
