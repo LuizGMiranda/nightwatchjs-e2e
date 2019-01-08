@@ -19,9 +19,9 @@ module.exports = function (browser) {
         // SEMPRE USAR DIRETORIO COM '/' EX: '/test'
         console.log(`Abrindo url ${browser.launchUrl + diretorio}`)
         browser.url(browser.launchUrl + diretorio)
-        browser.waitForElementVisible('body');
+        browser.waitForElementVisible('body',6000);
     }
-    
+
     this.pesquisar = function (campoBusca, cpf='') {
         browser.inserirValorInput('campo_pesquisa', valor);
         if (cpf.length > 0){
