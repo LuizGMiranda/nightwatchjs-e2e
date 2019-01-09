@@ -1,4 +1,4 @@
-# Testes do GMv2
+# Testes do GMv2 (migrado para projeto privado)
 Testes desenvolvidos pela equipe de front com a finalidade de testar o fluxo e as funcionalidades.
 
 ## Tecnologias 
